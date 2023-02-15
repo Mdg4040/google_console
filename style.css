@@ -1,0 +1,122 @@
+body{
+
+    background: #fff;
+    color: #202124;
+    cursor: auto;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.444;
+    overflow-wrap: break-word;
+    padding: 0;
+    word-wrap: break-word;
+    margin: 0 15px 0 30px;
+}
+.logo{
+    width: 150px;
+}
+.en-tete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sous-tete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   padding: 15px 15px;
+}
+.sous-tete1{
+    width: 120px;
+    margin: 0 10px;
+}
+.sous-tete2 a{
+    text-decoration: none;
+    color: white;
+    padding-top: 15px;
+}
+.sous-tete2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1a73e8;
+    color: white;
+    height: 90px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.note-image{
+    width: 250px;
+}
+.notes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:0 70px
+}
+.recherche{
+    width: 15px;
+    padding-top: 40px;
+}
+.note{
+   width: 65%;
+}
+.titre{
+    font-size: 55px;
+}
+.svg{
+    padding: 110px 0 0 90px;
+}
+.paragraphe-titre{
+    font-size: 25px;
+    color: #5f6368;
+}
+.plus{
+    border: solid 2px #5f6368;
+    border-radius: 25px;
+    width: 120px;
+    text-align: center;
+}
+.plus a{
+    text-decoration: none;
+    color: black;
+}
+
+.console{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*flex-wrap: wrap;*/
+}
+.presentation{
+    width: 45%;
+   /* height: 300px;*/
+    display: flex;
+    flex-direction: row;
+    margin-top: 110px;
+    /*border: solid 0.3px #b5b6b6;*/
+    box-sizing: border-box;
+  }
+.present{
+    width: 49%;
+    padding-left: 30px;
+}
+.present-svg{
+    width: 35%;
+    padding:80px 30px 0 60px;
+}
+.present-titre{
+    color: #202124;
+    font-size: 22px;
+}
+.present-paragraphe{
+    color: #5f6368;
+    font-size: 14px;
+    padding: 15px 0;
+}
