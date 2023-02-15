@@ -73,18 +73,21 @@ body{
     padding: 110px 0 0 90px;
 }
 .paragraphe-titre{
-    font-size: 25px;
+    font-size: 20px;
     color: #5f6368;
 }
 .plus{
     border: solid 2px #5f6368;
-    border-radius: 25px;
-    width: 120px;
+    border-radius: 50px;
+    width: 140px;
+    height: 40px;
     text-align: center;
 }
 .plus a{
     text-decoration: none;
     color: black;
+    padding: 10px 15px;
+    display: block;
 }
 
 .console{
@@ -92,6 +95,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 110px 0 60px 0;
     /*flex-wrap: wrap;*/
 }
 .presentation{
@@ -99,13 +103,13 @@ body{
    /* height: 300px;*/
     display: flex;
     flex-direction: row;
-    margin-top: 110px;
-    /*border: solid 0.3px #b5b6b6;*/
+    border: solid 0.3px #b5b6b6;
     box-sizing: border-box;
   }
 .present{
     width: 49%;
     padding-left: 30px;
+    height: 330px;
 }
 .present-svg{
     width: 35%;
@@ -120,3 +124,60 @@ body{
     font-size: 14px;
     padding: 15px 0;
 }
+.play-console{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    /*margin:0 70px*/
+}
+.note-play{
+    width: 50%;
+}
+.programme{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.note-programme{
+    width: 40%;
+}
+.flechette{
+    padding-left: 10px;
+    width: 20px;
+}
+.outils{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.outil{
+    width: 49%;
+    background-color: #b7c8df;
+    color: #5f6368;
+    margin-bottom: 25px;
+  }
+  .ressource{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .sorte-ressource{
+    width: 30%;
+    border: solid 1px rgb(192, 192, 192);
+  }
+  .image-ressource{
+    width: 55px;
+  }
