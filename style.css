@@ -172,7 +172,7 @@ body{
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    margin-top: 20px;
+    margin:20px 0 150px 0;
   }
   .sorte-ressource{
     width: 30%;
@@ -180,4 +180,28 @@ body{
   }
   .image-ressource{
     width: 55px;
+  }
+  /*---------------------------------Footer-----------------------------------------------------*/
+  footer{
+    margin: 0 30px;
+  }
+  .liens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .lien-inscription{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .logo-lien{
+    width: 35px;
+    padding: 0 10px;
+  }
+  .lien{
+    margin-left: 10px;
+  }
+  .logo-question{
+    width: 20px;
   }
